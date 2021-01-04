@@ -1,0 +1,104 @@
+/* COLORS */
+$primary: #192b4f;
+$white: #fff;
+$off-white: #f9f9f9;
+$green: #28c18d;
+$red: #d23b3b;
+$yellow: #f9cc54;
+$blue: #457ff0;
+$blue--light: #ebf0f8;
+$grey: #666666;
+$light-grey: #dadde0;
+$medium-light-grey: #d8d8d8;
+$color-link: #3171ef;
+$color-link-hover: #2d61c3;
+
+/* CHART COLORS */
+
+$color-chart-benchmark: #999999;
+$color-chart-0: #002855;
+$color-chart-1: #28c18d;
+$color-chart-2: #fca736;
+$color-chart-3: #4e82e4;
+$color-chart-4: #00ffc6;
+$color-chart-5: #9000ff;
+$color-chart-6: #735006;
+$color-chart-7: #ff00be;
+$color-chart-8: #a7988c;
+$color-chart-9: #6b3d63;
+$color-chart-10: #f74e00;
+$color-chart-11: #ad9293;
+$color-chart-12: #0ae05c;
+$color-chart-13: #15493a;
+$color-chart-14: #b4b4f5;
+$color-chart-15: #b8860b;
+$color-chart-16: #ffff00;
+$color-chart-17: #0153f7;
+$color-chart-18: #0e1420;
+$color-chart-19: #01fff2;
+$color-chart-20: #def7017a;
+$color-chart-21: #ada37456;
+$color-chart-22: #be01f7;
+$color-chart-23: #122447;
+$color-chart-24: #99c400;
+$color-chart-25: #1b2946;
+$color-chart-26: #542058;
+$color-chart-27: #617db4;
+$color-chart-28: #0c5170;
+$color-chart-29: #232529;
+$color-chart-30: #0e1420;
+$color-chart-31: #331d3a;
+$color-chart-32: #8face2;
+$color-chart-33: #15493a;
+$color-chart-34: #0de90db0;
+$color-chart-35: #ff00dd;
+$color-chart-36: #0f7306;
+$color-chart-37: #ff0040;
+$color-chart-38: #a0a78c;
+$color-chart-39: #1d1ba5;
+$color-chart-40: #194f43;
+$color-chart-41: #5b4f5c;
+$color-chart-42: #e9b4dc;
+$color-chart-43: #21fc04;
+$color-chart-44: #01bef7;
+$color-chart-45: #f7e701;
+$color-chart-46: #7a4040;
+$color-chart-47: #0153f7;
+$color-chart-48: #ac838c;
+$color-chart-49: #d7b1e9;
+$color-chart-50: #def701;
+$chart-colors: $color-chart-0, $color-chart-1, $color-chart-2, $color-chart-3, $color-chart-4, $color-chart-5,
+    $color-chart-6, $color-chart-7, $color-chart-8, $color-chart-9, $color-chart-10, $color-chart-11, $color-chart-12,
+    $color-chart-13, $color-chart-14, $color-chart-15, $color-chart-16, $color-chart-17, $color-chart-18,
+    $color-chart-19, $color-chart-20, $color-chart-21, $color-chart-22, $color-chart-23, $color-chart-24,
+    $color-chart-25, $color-chart-26, $color-chart-27, $color-chart-28, $color-chart-29, $color-chart-30,
+    $color-chart-31, $color-chart-32, $color-chart-33, $color-chart-34, $color-chart-35, $color-chart-36,
+    $color-chart-37, $color-chart-38, $color-chart-39, $color-chart-40, $color-chart-41, $color-chart-42,
+    $color-chart-43, $color-chart-44, $color-chart-45, $color-chart-46, $color-chart-47, $color-chart-48,
+    $color-chart-49, $color-chart-50;
+
+/* FONT FAMILY */
+$font-sans-serif: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font-serif: "Freight", "Georgia", serif;
+
+/* FONT WEIGHT */
+$font-light: 300;
+$font-regular: 400;
+$font-medium: 600;
+$font-bold: 700;
+
+/* GRID SYSTEM */
+$grid-columns: 12;
+
+/* TRANSITIONS */
+$duration-short: 0.2s;
+$duration-medium: 0.3s;
+$duration-long: 0.5s;
+$duration-longer: 0.8s;
+$duration-enter-leave: 1.6s;
+$bottom-transition: bottom $duration-long ease;
+$ease-default: cubic-bezier(0.25, 0.1, 0.25, 0.1);
+$ease-in-out: cubic-bezier(0.51, 0.31, 0, 1.01);
+
+/* BOX SHADOW */
+$box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);

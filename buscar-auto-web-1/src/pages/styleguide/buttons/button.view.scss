@@ -1,0 +1,14 @@
+.title {
+    margin-bottom: 30px;
+
+    h1 {
+        @include page-title;
+        border-bottom: 1px solid #e9e9e9;
+        padding-bottom: 5px;
+    }
+}
+
+.sub-title {
+    @include page-sub-title;
+    margin-bottom: 15px;
+}
